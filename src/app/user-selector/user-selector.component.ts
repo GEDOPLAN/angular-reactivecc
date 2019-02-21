@@ -33,7 +33,7 @@ export class UserSelectorComponent implements ControlValueAccessor {
 
   writeValue(obj: number): void {
     if (obj) {
-      const value = this.users.find(e => e.id === obj);
+      const value = this.users.find(e => e.id == obj);
       if (value) this.form.patchValue({ value });
     }
   }
