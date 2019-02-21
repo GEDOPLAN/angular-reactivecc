@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-reactivecc';
+  form: FormGroup;
+
+  constructor(builder: FormBuilder) {
+    this.form = builder.group({
+      userId: ['']
+    });
+  }
 }
