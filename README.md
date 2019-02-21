@@ -1,27 +1,26 @@
-# AngularReactivecc
+# angular-reactivecc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+Angular eigene Komponenten mit ReactiveForms (ModelDriven)
+Demo-Projekt zum Blog Beitrag auf:
 
-## Development server
+`https://javaeeblog.wordpress.com/`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> In größeren Projekten werden wir relativ schnell den Punkt erreichen in dem sich der ein oder andere Entwickler denkt: "Moment das hatten wir doch schon mal". Wenn noch nicht geschehen ist das der Zeitpunkt um für den so identifizierten Bereich / Funktion eine eigene Komponente zu aus zu bilden. Wenn es sich dabei um ein Form-Element handelt mag es auf zuerst einmal nicht so offensichtlich sein wie man das am besten bewerkstelligt...
 
-## Code scaffolding
+## Run
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Die Anwendung verwendet **npm** und **angular-cli**
 
-## Build
+build:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+> npm install
 
-## Running unit tests
+run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> npm serve
 
-## Running end-to-end tests
+open:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+> http://localhost:4200/
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_by GEDOPLAN, [Dominik Mathmann](https://github.com/dominikmathmann)_
