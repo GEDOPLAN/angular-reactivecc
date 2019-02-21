@@ -17,7 +17,7 @@ build:
 
 run:
 
-> npm serve
+> npm start
 
 open:
 
